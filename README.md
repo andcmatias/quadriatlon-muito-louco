@@ -37,7 +37,7 @@ O "Quadriatlon Muito Louco" é um jogo onde o jogador compete em quatro modalida
 1. **Clone o Repositório**
 
    ```bash
-   git clone https://github.com/seu-usuario/quadriatlon-muito-louco.git
+   git clone https://github.com/andcmatias/quadriatlon-muito-louco.git
    cd quadriatlon-muito-louco
    ```
 
