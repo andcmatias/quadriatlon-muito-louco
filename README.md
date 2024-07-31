@@ -15,8 +15,10 @@
 
 ## Descrição do Projeto
 
-O "Quadriatlon Muito Louco" é um jogo onde o jogador compete em quatro modalidades diferentes. Cada modalidade tem seu próprio conjunto de desafios e itens que podem ser utilizados para melhorar o desempenho do competidor. O progresso do jogador é medido em níveis, e o jogo inclui encontros que podem afetar a evolução do competidor.
+O "Quadriatlon Muito Louco" é um jogo texto onde o jogador compete em quatro modalidades diferentes. Cada modalidade tem seu próprio conjunto de desafios e itens que podem ser utilizados para melhorar o desempenho do competidor. O progresso do jogador é medido em níveis, e o jogo inclui encontros que podem afetar a evolução do competidor.
 
+O jogo foi desenvolvido como atividade final do Bootcamp da Italents - Fundamentos de Back-end Development
+ 
 ## Funcionalidades
 
 - **Modalidades**: Inclui Corrida, Natação, Escalada e Bicicleta.
