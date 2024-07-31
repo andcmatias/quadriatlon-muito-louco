@@ -42,7 +42,7 @@ export async function modalidadeJogar(modalidade: number, competidor: Competidor
     // Verifica se o competidor pode usar um item
     if (competidor.itens.length > 0) {
       nivelAtual += await competidor.selecionarItem(modalidade); // Atualiza o nível com base no item selecionado
-      if (nivelAtual <= 0) nivelAtual = 0; // Garante que o nível não seja negativo
+      if (nivelAtual <= 0) nivelAtual = 1; // Garante que o nível não seja negativo
       if (nivelAtual != competidor.modalidades[modalidade].nivel) {
         competidor.atualizarNivel(modalidade, nivelAtual, true); // Atualiza o nível do competidor
       }
@@ -65,7 +65,7 @@ export async function modalidadeJogar(modalidade: number, competidor: Competidor
     if (competidor.tipo == "jogador") {
       console.log("");
     }
-    if (nivelAtual <= 0) nivelAtual = 0; // Garante que o nível não seja negativo
+    if (nivelAtual <= 0) nivelAtual = 1; // Garante que o nível não seja negativo
     competidor.atualizarNivel(modalidade, nivelAtual); // Atualiza o nível do competidor
   }
 
