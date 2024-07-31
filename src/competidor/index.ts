@@ -187,8 +187,8 @@ export class Competidor {
                         if (encontro.evento.acao.nivel) {
                             avancoNivel = encontro.evento.acao.nivel; // Atualiza o avanço de nível
                         }
+                        acao = true;
                     }
-                    acao = true;
                 }
             }
         } else {
