@@ -56,7 +56,7 @@ Video de explicação: https://youtu.be/wYhqouihnt8
    ```
 
 ## Execução
-
+Deve possuir instalado a versão do nodejs 20.14.0 ou superior.
 Para executar o projeto, você pode escolher entre os seguintes modos:
 
 - **Modo de Desenvolvimento**
